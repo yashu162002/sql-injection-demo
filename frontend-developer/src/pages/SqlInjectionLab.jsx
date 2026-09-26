@@ -18,7 +18,7 @@ import {
 } from "lucide-react";
 import "../features/cybersecurity/styles/cybersecurity.css";
 
-const API_BASE = import.meta.env?.VITE_API_BASE || "http://localhost:8080";
+const API_BASE = import.meta.env.VITE_API_URL;
 
 const PAYLOAD_EXAMPLES = [
   { label: "Auth bypass", username: "' OR '1'='1' --", password: "anything" },

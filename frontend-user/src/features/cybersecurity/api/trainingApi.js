@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const trainingApi = axios.create({
-    baseURL: "http://localhost:8080/api/training",
+    baseURL: `${import.meta.env.VITE_API_URL}/api/training`,
     headers: {
         "Content-Type": "application/json",
     },
@@ -21,4 +21,3 @@ export const getTrainingSubmissions = () => {
 export const clearTrainingSubmissions = () => {
     return trainingApi.delete("/submissions");
 };
-
