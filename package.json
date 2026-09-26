@@ -1,0 +1,8 @@
+{
+  "name": "injection-workspace",
+  "private": true,
+  "scripts": {
+    "dev:user": "npm --prefix frontend-user run dev",
+    "dev:developer": "npm --prefix frontend-developer run dev"
+  }
+}

@@ -1,0 +1,45 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React / Vite
+dist/
+build/
+.vite/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Java / Spring Boot
+target/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database backups
+*.dump
+*.backup
+
+# Local Spring configuration
+application-local.properties
+application-local.yml
+
+# Local Spring Boot configuration
+sqllab/sqllab/src/main/resources/application.properties
+
+# Local training submissions
+sqllab/sqllab/training_submissions.json
